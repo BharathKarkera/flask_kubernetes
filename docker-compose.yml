@@ -1,0 +1,7 @@
+services:
+  flask_server:
+    build: .
+    ports:
+      - "1234:1234"
+    volumes:
+      - .:/my_code
